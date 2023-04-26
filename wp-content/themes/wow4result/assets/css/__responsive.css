@@ -1,0 +1,281 @@
+/*variables.scss*/
+/* ========================================
+   Start Media CSS for Responsive
+   ======================================== */
+@media (min-width: 992px) {
+  .article-block .container {
+    max-width: 100%;
+    padding-left: 0px; } }
+@media (min-height: 768px) and (max-width: 991px) {
+  .article-block .container {
+    max-width: 720px;
+    padding-left: 15px; } }
+@media (min-height: 576px) and (max-width: 767px) {
+  .article-block .container {
+    max-width: 540px;
+    padding-left: 15px; } }
+@media (max-width: 1024px) {
+  .offer-header-text {
+    padding-left: 15px; } }
+@media (max-width: 991px) {
+  .nav-overlay {
+    overflow-y: scroll; }
+
+  .title h1 {
+    font-size: 30px; }
+
+  .contentarea {
+    padding-top: 40px; }
+
+  .innerpage .banner-wrap .banner-area {
+    min-height: initial; }
+    .innerpage .banner-wrap .banner-area .talk-to-us-area {
+      position: static;
+      margin-bottom: 0; }
+
+  .tablist ul li a {
+    min-height: 66px; }
+
+  .article-block .article-block-left {
+    position: static;
+    min-height: 300px; }
+  .article-block .article-block-right {
+    padding-left: 0px;
+    margin-top: 40px;
+    max-width: 100%; }
+
+  .blog-detail-page .article-block .article-block-right {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    max-width: 100%; }
+
+  .contactus-form {
+    margin-top: 0px;
+    margin-bottom: 40px; }
+
+  .notfound-page .banner-wrap .notfound-block {
+    height: calc(100vh - 181px); } }
+@media only screen and (max-device-width: 823px) and (orientation: landscape) {
+  .banner-wrap .home-banner-content {
+    display: table-cell;
+    -webkit-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    transform: translateY(1rem);
+    vertical-align: middle; }
+
+  .home-bg .home-banner-content .banner-logo {
+    margin-bottom: 15px; }
+  .home-bg .home-banner-content .title {
+    margin-bottom: 15px; }
+
+  .homebanner_bg .full-height {
+    height: auto !important; }
+
+  .notfound-page .banner-wrap {
+    height: auto; } }
+@media (max-width: 767px) {
+  .banner-wrap .home-banner-content {
+    display: table-cell;
+    -webkit-transform: translateY(2rem);
+    -ms-transform: translateY(2rem);
+    transform: translateY(2rem);
+    vertical-align: middle; }
+
+  .nav-overlay .nav-overlay-content ul li a.menu-link {
+    font-size: 20px; }
+  .nav-overlay .nav-overlay-content ul .menudropdown .collapse ul li a, .nav-overlay .nav-overlay-content ul .menudropdown .collapsing ul li a {
+    font-size: 14px; }
+
+  .home-bg .home-banner-content .banner-logo {
+    margin-bottom: 20px; }
+  .home-bg .home-banner-content .title {
+    margin-bottom: 20px; }
+
+  .oddeven-title h3 {
+    font-size: 18px; }
+
+  .contact-us {
+    text-align: center; }
+
+  .contact-details {
+    text-align: center; }
+
+  .offer-header-text {
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 15px; }
+
+  .offer-header .download-pdf {
+    text-align: center; }
+
+  .tablist ul {
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-box-border-radius: 20px;
+    -o-border-radius: 20px; }
+    .tablist ul li {
+      width: 100%;
+      display: block; }
+      .tablist ul li a {
+        min-height: initial;
+        display: block;
+        border-right: 0px;
+        border-bottom: 1px solid #f1592a; }
+      .tablist ul li:first-child {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px; }
+        .tablist ul li:first-child a {
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 0px;
+          border-top-right-radius: 20px; }
+      .tablist ul li:last-child {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px; }
+        .tablist ul li:last-child a {
+          border-bottom: 0px;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px; }
+
+  .oddeven-block .screen-block {
+    text-align: center;
+    margin-bottom: 30px; }
+  .oddeven-block .even .screen-block {
+    text-align: center; }
+  .oddeven-block .oddeven-title {
+    text-align: center; }
+  .oddeven-block p {
+    text-align: center; }
+
+  .blog-list .row {
+    margin-left: -15px;
+    margin-right: -15px; }
+    .blog-list .row [class*="col-"] {
+      padding-left: 15px;
+      padding-right: 15px; }
+
+  .article-block {
+    margin-bottom: 40px; }
+    .article-block .article-block-right {
+      margin-top: 40px; }
+
+  .blog-box {
+    margin-bottom: 40px; }
+    .blog-box .blog-img .blog-img-text h3 {
+      font-size: 18px; } }
+@media only screen and (max-device-width: 767px) and (orientation: landscape) {
+  .banner-wrap .home-banner-content {
+    display: table-cell;
+    -webkit-transform: translateY(1rem);
+    -ms-transform: translateY(1rem);
+    transform: translateY(1rem);
+    vertical-align: middle; } }
+@media (max-width: 576px) {
+  .btn-small {
+    min-width: initial; }
+
+  .btn-medium {
+    min-width: initial; }
+
+  .btn-large {
+    min-width: initial; }
+
+  .nav-overlay .nav-overlay-content {
+    top: 120px; }
+    .nav-overlay .nav-overlay-content p {
+      margin-bottom: 20px; }
+    .nav-overlay .nav-overlay-content ul li a.menu-link {
+      font-size: 16px; }
+    .nav-overlay .nav-overlay-content ul .menudropdown .collapse ul li a, .nav-overlay .nav-overlay-content ul .menudropdown .collapsing ul li a {
+      font-size: 12px; }
+
+  .banner-wrap .home-banner-content .title h1 {
+    font-size: 26px; }
+
+  .title h2 {
+    font-size: 24px; }
+
+  .col-pic {
+    width: 50%; }
+
+  .article-block .container {
+    max-width: 100%;
+    padding-left: 15px; } }
+@media (max-width: 480px) {
+  .nav-overlay .nav-overlay-content ul li a {
+    font-size: 18px; }
+
+  .innerpage .main-nav .header-menu {
+    display: table; }
+    .innerpage .main-nav .header-menu a {
+      padding-left: 10px; }
+
+  .notfound-page .banner-wrap {
+    height: auto; }
+    .notfound-page .banner-wrap .notfound-block {
+      height: calc(100vh - 181px); } }
+@media (max-width: 320px) {
+  .wow-logo {
+    width: 100px; }
+
+  .eps-logo {
+    width: 100px; }
+
+  .innerpage .main-nav .header-menu {
+    padding-top: 5px; }
+    .innerpage .main-nav .header-menu .btn-talk-us {
+      min-width: initial;
+      padding: 16px 16px; }
+  .innerpage .main-nav .talk-to-us {
+    padding: 0 10px 30px 10px; }
+
+  .contactuspage .main-nav .header-menu {
+    padding-top: 0; }
+
+  .banner-wrap .home-banner-content .title h1 {
+    font-size: 20px; }
+
+  .col-pic {
+    width: 100%; }
+
+  .notfound-page .banner-wrap .notfound-block {
+    min-height: initial;
+    height: auto; } }
+/* ========================================
+   IE Only CSS
+   ======================================== */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  textarea {
+    border-bottom: 0px !important; }
+
+  .form-control, .custom-file-control {
+    border-bottom: 1px solid; }
+
+  .cont-address-tbl {
+    display: table !important; }
+
+  .innerpage .banner-wrap .banner-area {
+    display: table; }
+    .innerpage .banner-wrap .banner-area .banner-row {
+      display: table-cell;
+      vertical-align: middle; }
+    .innerpage .banner-wrap .banner-area .article-banner {
+      display: table-cell;
+      vertical-align: middle; }
+
+  .tablist ul li {
+    display: table-cell;
+    vertical-align: middle; }
+    .tablist ul li a {
+      min-height: 45px; }
+
+  .offers-bg {
+    display: table;
+    width: 100%; }
+    .offers-bg .blk-overlay {
+      display: table-cell;
+      vertical-align: middle; } }
